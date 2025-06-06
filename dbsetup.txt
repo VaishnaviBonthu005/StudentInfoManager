@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS Student;
+USE Student;
+CREATE TABLE IF NOT EXISTS register (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    course VARCHAR(20),
+    dob VARCHAR(15),
+    address TEXT,
+    admin BOOLEAN
+);

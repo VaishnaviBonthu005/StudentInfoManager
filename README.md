@@ -16,6 +16,6 @@ A console-based application for managing student registrations.
 1. Clone the repo
 2. Run `pip install pymysql`
 3. Create the table in your MySQL using the provided schema
-4. Update your DB config in `config.py`
+4. Update your DB config
 5. Run `Main.py`
 
